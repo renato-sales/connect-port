@@ -1,0 +1,56 @@
+.containerInicio {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contentTelaInicial {
+  width: 50vw;
+  color: #205691;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+  h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+figure {
+  width: 38.8%;
+
+  .imgInicio {
+    width: 100%;
+  }
+}
+
+// @media (min-width: 201px) and (max-width: 500px) {
+//   .containerTelaInicial {
+//     padding: 0 1rem;
+//     flex-direction: column;
+//   }
+
+//   .contentTelaInicial {
+//     h1 {
+//       font-size: 3.2rem;
+//       text-align: center;
+//     }
+
+//     p {
+//       font-size: 1rem;
+//       text-align: center;
+//     }
+//   }
+
+//   .imgInicio {
+//     width: 60%;
+//   }
+// }

@@ -1,0 +1,48 @@
+.navBar {
+  background-color: #205691;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  ul {
+    display: flex;
+    gap: 4rem;
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 1.75rem;
+  }
+
+  .imgPerfil {
+    height: 12vh;
+    width: 6vw;
+    border-radius: 100%;
+    border: solid #00aaff 4px;
+  }
+}
+
+//--------------Responsivo------------
+
+@media (min-width: 201px) and (max-width: 500px) {
+  .navBar {
+    height: 8vh;
+
+    ul {
+      gap: 1.75rem;
+    }
+
+    a {
+      font-size: 1rem;
+    }
+
+    .logo {
+      width: 10vw;
+    }
+
+    .imgPerfil {
+      height: 6vh;
+      width: 10vw;
+    }
+  }
+}

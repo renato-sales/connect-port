@@ -1,0 +1,23 @@
+.containerSomosNos {
+  background-image: url("../../assets/backgroundQuemSomos.png");
+  height: 100vh;
+
+  .contentTexto {
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    gap: 40px;
+    padding: 50px 30px 0 0;
+
+    h1 {
+      font-size: 3rem;
+      color: #205691;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}

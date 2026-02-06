@@ -1,0 +1,45 @@
+footer {
+  color: #fff;
+  background-color: #205691;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+
+  .containerLogoFooter {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  p {
+    width: 32%;
+    text-align: center;
+  }
+
+  .logoRedesSociais {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  footer {
+    flex-direction: column-reverse;
+    padding: 1.5rem 0;
+    height: 35vh;
+
+    .containerLogoFooter {
+      gap: 3rem;
+    }
+
+    p {
+      width: 100%;
+    }
+
+    .logoRedesSociais {
+      gap: 5rem;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.imgPerfil {
+  width: 18rem;
+  border-radius: 100%;
+  border: 4px solid #00aaff;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentPerfil {
+  border: 1px solid #efeeea;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 75%;
+  padding: 2rem 2rem;
+}
+
+.contentPerfilInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .pInfo {
+    font-size: 1.2rem;
+    color: #278733;
+  }
+
+  .contentInfo ul {
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+  }
+
+  .contentInfo .contentInfoEstilizacao {
+    color: #278733;
+
+    li {
+      background-color: #d4e7d6;
+      border-radius: 10px;
+      padding: 0.5rem 0.8rem;
+    }
+  }
+}
