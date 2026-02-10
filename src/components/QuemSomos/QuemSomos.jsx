@@ -2,7 +2,7 @@ import styles from "./QuemSomos.module.scss";
 
 function QuemSomos() {
   return (
-    <div className={styles.containerSomosNos}>
+    <section className={styles.containerSomosNos}>
       <div className={styles.contentTexto}>
         <h1>Como a Connect atua em projetos sociais</h1>
         <p>
@@ -24,7 +24,7 @@ function QuemSomos() {
           sociais que realmente transformam vidas.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

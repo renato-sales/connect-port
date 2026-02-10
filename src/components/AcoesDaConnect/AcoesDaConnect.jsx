@@ -55,7 +55,7 @@ function AcoesDaConnect() {
   ]);
 
   return (
-    <div className={styles.containerAcoes}>
+    <section className={styles.containerAcoes}>
       <div className={styles.TituloParagrafo}>
         <h2>Ações da Connect</h2>
         <p>
@@ -75,7 +75,7 @@ function AcoesDaConnect() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
