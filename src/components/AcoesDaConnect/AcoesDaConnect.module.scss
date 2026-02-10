@@ -32,3 +32,25 @@
     padding: 0 4.5rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .containerAcoes {
+    padding: 3rem 0;
+
+    .TituloParagrafo {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        width: 90%;
+      }
+    }
+
+    .containerCards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

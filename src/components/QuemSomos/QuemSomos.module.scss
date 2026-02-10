@@ -21,3 +21,25 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .containerSomosNos {
+    background-image: none;
+    height: auto;
+
+    .contentTexto {
+      width: 90vw;
+      justify-self: center;
+      padding: 50px 0;
+      text-align: center;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

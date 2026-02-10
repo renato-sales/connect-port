@@ -28,3 +28,27 @@ article {
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  article {
+    width: 100%;
+
+    img {
+      width: 85vw;
+    }
+
+    h3 {
+      width: 100vw;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    p {
+      width: 80vw;
+    }
+
+    button {
+      font-size: 1rem;
+    }
+  }
+}

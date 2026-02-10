@@ -32,25 +32,33 @@ figure {
   }
 }
 
-// @media (min-width: 201px) and (max-width: 500px) {
-//   .containerTelaInicial {
-//     padding: 0 1rem;
-//     flex-direction: column;
-//   }
+@media screen and (max-width: 1024px) {
+  .containerInicio {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
 
-//   .contentTelaInicial {
-//     h1 {
-//       font-size: 3.2rem;
-//       text-align: center;
-//     }
+  .contentTelaInicial {
+    width: 95vw;
+    text-align: center;
+    gap: 2rem;
 
-//     p {
-//       font-size: 1rem;
-//       text-align: center;
-//     }
-//   }
+    h1 {
+      font-size: 2.5rem;
+    }
 
-//   .imgInicio {
-//     width: 60%;
-//   }
-// }
+    p {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
+
+  figure {
+    width: 58.8%;
+
+    .imgInicio {
+      width: 100%;
+    }
+  }
+}

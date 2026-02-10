@@ -3,7 +3,7 @@ import styles from "./Perfil.module.scss";
 
 function Perfil() {
   return (
-    <section>
+    <section className={styles.containerPerfil}>
       <div className={styles.contentPerfil}>
         <img
           className={styles.imgPerfil}
@@ -24,7 +24,7 @@ function Perfil() {
           </p>
 
           <div className={styles.contentInfo}>
-            <ul>
+            <ul className={styles.listaContentInfo}>
               <li>Olinda, PE</li>
               <li>renato_sales_@hotmail.com</li>
               <li>Graduado em Dezembro de 2024</li>

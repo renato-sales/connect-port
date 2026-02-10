@@ -22,18 +22,16 @@
   }
 }
 
-//--------------Responsivo------------
-
-@media (min-width: 201px) and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   .navBar {
-    height: 8vh;
+    height: 10vh;
 
     ul {
-      gap: 1.75rem;
+      gap: 1.5rem;
     }
 
     a {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
 
     .logo {
@@ -43,6 +41,7 @@
     .imgPerfil {
       height: 6vh;
       width: 10vw;
+      border: solid #00aaff 2px;
     }
   }
 }
